@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           theme="dark" />
           <Web3Provider>
               <Header />
-              <main className="min-h-screen">{children}</main>
+              <main className="min-h-screen" style={{backgroundImage: 'url(/grid-pattern.png)'}}>{children}</main>
               <Footer/>
           </Web3Provider>
       

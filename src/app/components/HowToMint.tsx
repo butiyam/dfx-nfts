@@ -71,7 +71,7 @@ const HowToMint = () => {
   ];
 
   return (
-    <div className="bg-[#000] px-4 pt-10 w-full relative">
+    <div className="bg-[#000] px-4 pt-10 w-full relative rounded-2xl">
       <Image className="w-full h-full absolute top-0 left-0 z-[1]" src="/bg-shade.png" width={140} height={140}  alt="bg"  />
       
       <div className="max-w-[1280px]  m-auto w-full">

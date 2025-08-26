@@ -215,7 +215,7 @@ export default function Home() {
        
     
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-gray-900 p-10">
+    <div className="min-h-screen flex flex-col items-center justify-center p-10">
       <h1 className="text-3xl font-bold text-[#02b3ff] mt-10">DFX <span className="text-white">MINT NFT</span></h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full">
@@ -229,6 +229,6 @@ export default function Home() {
           </button>
       </div>
       <HowToMint/>
-    </main>
+    </div>
   );
 }
